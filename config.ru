@@ -1,9 +1,11 @@
 Encoding::default_external = Encoding::UTF_8 if defined? Encoding
 
 require 'dashing'
+require 'dotenv'
+Dotenv.load
 
 configure do
-  set :auth_token, 'YOUR_AUTH_TOKEN'
+  set :auth_token, ENV['YOUR_AUTH_TOKEN']
 
   helpers do
     def protected!
