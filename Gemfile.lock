@@ -49,6 +49,7 @@ GEM
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
     sass (3.2.19)
+    simple-rss (1.3.1)
     simple_oauth (0.2.0)
     sinatra (1.4.5)
       rack (~> 1.4)
@@ -95,5 +96,6 @@ DEPENDENCIES
   dashing
   dotenv
   nokogiri
+  simple-rss
   twitter (>= 5.9.0)
   xml-simple

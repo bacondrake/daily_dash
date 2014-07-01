@@ -9,3 +9,5 @@ gem 'dotenv'
 gem 'nokogiri'
 
 gem 'xml-simple'
+
+gem 'simple-rss'
