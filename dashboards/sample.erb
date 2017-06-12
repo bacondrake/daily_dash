@@ -1,43 +1,53 @@
 <% content_for :title do %>Daily dashboard<% end %>
 <div class="gridster">
   <ul>
-    
     <li data-row="1" data-col="1" data-sizex="4" data-sizey="1">
       <div data-id="welcome" data-view="Text" data-title="Hello" data-text="This is your shiny new dashboard." data-moreinfo="You can drag the widgets around!"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+    <!-- bar_chart -->
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="bar_chart" data-view ="BarChart" data-title="Bar Chart" data-moreinfo=""></div>
+    </li>
+
+    <!-- Dilbert !! -->
+    <!-- <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
       <div data-id="daily_dilbert" data-view="DailyDilbert"></div>
-    </li>
+    </li> -->
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <!-- Weather !! -->
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="weather" data-view="Weather"></div>
-    </li>
+    </li> -->
 
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+    <!-- Tweets -->
+    <!-- <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color:#55acee;" data-moreinfo="Tweets tagged with #todayilearned"></div>
       <i class="icon-twitter icon-background"></i>
-    </li>
-  
+    </li> -->
+
+    <!-- reddit.com/r/til frontpage -->
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="reddit_frontpage" data-view="Reddit_frontpage" style="background-color:#a2a2a2;" data-moreinfo="http://www.reddit.com/r/todayilearned"></div>
     </li>
 
+    <!-- News -->
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
       <div data-id="news" data-view="News"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <!-- Yahoo stock quote !! -->
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="yahoo_stock_quote_list" data-view="List"></div>
-    </li>
+    </li> -->
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <!-- Startup quote -->
+    <!-- <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="startup_quote"
            data-view="Image"
            data-title="Startup quote"
            style="padding:0;vertical-align:bottom;background:transparent;">
       </div>
-    </li>
-    
+    </li> -->
   </ul>
 </div>
