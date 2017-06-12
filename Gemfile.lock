@@ -95,6 +95,7 @@ PLATFORMS
 DEPENDENCIES
   dashing
   dotenv
+  json
   nokogiri
   simple-rss
   twitter (>= 5.9.0)
