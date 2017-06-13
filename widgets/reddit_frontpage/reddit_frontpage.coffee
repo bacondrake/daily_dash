@@ -10,7 +10,7 @@ class Dashing.Reddit_frontpage extends Dashing.Widget
     @currentIndex = 0
 
   startCarousel: ->
-    setInterval(@nextComment, 8000)
+    setInterval(@nextComment, 20000)
 
   nextComment: =>
     titles = @get('titles')

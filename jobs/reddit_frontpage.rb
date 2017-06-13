@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-reddit_frontpage = Nokogiri::HTML(open('http://www.reddit.com/r/todayilearned'))
+reddit_frontpage = Nokogiri::HTML(open('https://www.reddit.com/r/todayilearned'))
 
 SCHEDULER.every '10m', :first_in => 0 do |job|
   begin
